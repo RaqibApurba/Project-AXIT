@@ -1,0 +1,488 @@
+/***********************************
+/* (1)
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*************************************/
+@media (min-width: 768px) and
+(max-width: 1024px) {
+  
+
+
+  /* CSS */
+  
+.banner{
+	height: 80vh;
+}
+
+.banner-text{
+	height: 80vh;
+}
+
+.banner-form{
+	height: 80vh;
+}
+
+.banner-form .form-body {
+	margin-left: 0px;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-item{
+	border-bottom: 1.5px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.social-section .col-md-7 ul li a i {
+    font-size: 32px;
+  }
+
+.social-section ul li {
+	margin-left: 18px;
+}
+.social-section .col-md-7 {
+    display: flex;
+    align-items: center;
+}
+.feature-2 {
+	padding: 60px 0;
+}
+.feature-2 .row{
+    flex-direction: column;
+  }
+
+.feature-2 .col-md-6{
+  max-width: 100%;
+}
+.feature-2 .feature-img {
+    justify-content: center;
+}
+.feature-2 .col-md-6 .row {
+	flex-direction: row;
+}
+.feature-3 {
+	padding: 60px 0;
+}
+}
+.feature-3 .feature-3-img {
+	display: flex;
+	align-items: center;
+}
+.about-us {
+	padding: 60px 0;
+}
+.pricing{
+	padding: 60px 0;
+}
+.price {
+    margin-top: 20px;
+}
+.row-price .col-md-4{
+	padding-right: 8px;
+	padding-left: 8px;
+}
+.comments{
+	padding: 60px 0;
+}
+.user-comment .col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user .col-md-8 {
+    padding-left: 6px;
+}
+.custom-section p {
+	margin: 0 60px;
+}
+.contact {
+	padding: 60px 0;
+}
+.footer{
+	height: 10vh;
+}
+
+
+
+/******************/
+}
+
+
+/***********************************
+/ (2)
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+************************************/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+
+
+  /* CSS */
+
+.banner{
+	height: 80vh;
+}
+
+.banner-text{
+	height: 80vh;
+}
+
+.banner-form{
+	height: 80vh;
+}
+
+.banner-form .form-body {
+	margin-left: 0px;
+}
+
+.social-section .col-md-7 ul li a i {
+    font-size: 32px;
+  }
+
+.social-section ul li {
+	margin-left: 18px;
+}
+.social-section .col-md-7 {
+    display: flex;
+    align-items: center;
+}
+.feature-2 {
+	padding: 60px 0;
+}
+.feature-2 .row{
+    flex-direction: column;
+  }
+
+.feature-2 .col-md-6{
+  max-width: 100%;
+}
+.feature-2 .feature-img {
+    justify-content: center;
+}
+.feature-2 .col-md-6 .row {
+	flex-direction: row;
+}
+.feature-3 {
+	padding: 60px 0;
+}
+}
+.feature-3 .feature-3-img {
+	display: flex;
+	align-items: center;
+}
+.about-us {
+	padding: 60px 0;
+}
+.pricing{
+	padding: 60px 0;
+}
+.price {
+    margin-top: 20px;
+}
+.row-price .col-md-4{
+	padding-right: 8px;
+	padding-left: 8px;
+}
+.comments{
+	padding: 60px 0;
+}
+.user-comment .col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user .col-md-8 {
+    padding-left: 6px;
+}
+.custom-section p {
+	margin: 0 60px;
+}
+.contact {
+	padding: 60px 0;
+}
+.footer{
+	height: 12vh;
+}
+
+
+
+/******************/
+
+
+
+/***********************************
+/* (3)
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+************************************/
+@media (min-width: 320px) and 
+(max-width: 480px) {
+  
+
+
+  /* CSS */
+.banner{
+	height: auto;
+}
+.banner-form .form-body {
+	 margin-left: 0px;	
+	 margin-top: -60px;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text .line{
+	margin: 20px auto;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-item{
+	border-bottom: 1.5px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.social-section h3{
+	text-align: center;
+}
+.social-section p{
+	text-align: center;
+}
+.social-section ul li {
+    margin: 0 8px;
+}
+.social-section .col-md-7 {
+    display: flex;
+}
+.social-section .col-md-7 ul li a i {
+    font-size: 28px;
+}
+.feature-1 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature-1 dl, ol, ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.feature-1 ul li {
+    margin: 0 4px;
+}
+.feature-1 .col-md-2{
+	justify-content: center;
+}
+.feature-1 .col-md-6 {
+    padding: 30px 45px;
+}
+.feature-1 button{
+	margin: 0 auto;
+	display: block;
+}
+.feature-1 img{
+    display: inline-block;
+    margin: auto;
+}
+.feature-2 {
+    padding: 60px 0;
+    text-align: center;
+}
+.feature-2 .line{
+	margin: 20px auto;
+}
+.feature-2 .col-md-2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.feature-3 {
+    padding: 60px 0;
+    text-align: center;
+}
+.feature-3 .line{
+	margin: 20px auto;
+}
+.about-us .col-md-4{
+	margin-bottom: 20px;
+}
+.about-us {
+    padding: 100px 0 40px 0;
+}
+.about-us .title{
+	font-size: 26px;
+	font-weight: 700;
+}
+.pricing .col-md-4{
+	margin-bottom: 50px;
+}
+.price .card-footer, .price .card-footer ul {
+    display: block;
+}
+.user .col-md-8 {
+    text-align: center;
+    margin-top: 10px;
+}
+.comments .row{
+	margin-right: 0px;
+}
+.comments .title{
+	font-size: 26px;
+	font-weight: 700;
+}
+.icon-box {
+	left: 45%;
+}
+.box {
+    margin: 0 20px;
+}
+.footer{
+	height: 15vh;
+}
+
+ /*********************/
+}
+
+
+
+
+/***********************************
+/* (4)
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+************************************/
+@media (min-width: 481px) and 
+(max-width: 760px) {
+  
+
+
+  /* CSS */
+.banner{
+	height: auto;
+	padding: 80px 0;
+}
+.banner .col-md-6{
+	justify-content: center;
+	display: flex;
+}
+.banner-text {
+	height: auto;
+}
+.banner-text button {
+	margin-bottom: 90px;
+}
+.banner-form .form-body {
+	 margin-left: 0px;	
+	 margin-top: -60px;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text .line{
+	margin: 20px auto;
+}
+.navbar-nav{
+	text-align: center;
+}
+.nav-item{
+	border-bottom: 1.5px solid #bbbbbb;
+}
+.nav-item:last-child{
+	border-bottom: none;
+}
+.social-section h3{
+	text-align: center;
+}
+.social-section p{
+	text-align: center;
+}
+.social-section ul li {
+    margin: 0 8px;
+}
+.social-section .col-md-7 {
+    display: flex;
+}
+.social-section .col-md-7 ul li a i {
+    font-size: 28px;
+}
+.feature-1 {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature-1 dl, ol, ul{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.feature-1 ul li {
+    margin: 0 4px;
+}
+.feature-1 .col-md-2{
+	justify-content: center;
+}
+.feature-1 .col-md-6 {
+    padding: 30px 45px;
+}
+.feature-1 button{
+	margin: 0 auto;
+	display: block;
+}
+.feature-1 img{
+    display: inline-block;
+    margin: auto;
+}
+.feature-2 {
+    padding: 60px 0;
+    text-align: center;
+}
+.feature-2 .line{
+	margin: 20px auto;
+}
+.feature-2 .col-md-2{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.feature-3 {
+    padding: 60px 0;
+    text-align: center;
+}
+.feature-3 .line{
+	margin: 20px auto;
+}
+.about-us .col-md-4{
+	margin-bottom: 20px;
+}
+.about-us {
+    padding: 100px 0 40px 0;
+}
+.about-us .title{
+	font-size: 26px;
+	font-weight: 700;
+}
+.pricing .col-md-4{
+	margin-bottom: 50px;
+}
+.price .card-footer, .price .card-footer ul {
+    display: block;
+}
+.user .col-md-8 {
+    text-align: center;
+    margin-top: 10px;
+}
+.comments .title{
+	font-size: 26px;
+	font-weight: 700;
+}
+.icon-box {
+	left: 45%;
+}
+.box {
+    margin: 0 20px;
+}
+.footer{
+	height: 30vh;
+}
+ /*********************/
+}
+
+}
